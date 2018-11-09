@@ -9,7 +9,12 @@ import us.codecraft.tinyioc.beans.xml.XmlBeanDefinitionReader;
 import java.util.Map;
 
 /**
+ *
+ * 	从类路径加载资源的具体实现类。内部通过 XmlBeanDefinitionReader 解析 UrlResourceLoader 读取到的 Resource，获取 BeanDefinition 信息，然后将其保存到内置的 BeanFactory 中。
+ *
+ *
  * @author yihua.huang@dianping.com
+ * 实现了 loadBeanDefinitions 的方法，将 xml 文件和 BeanFactory 结合在一起。
  */
 public class ClassPathXmlApplicationContext extends AbstractApplicationContext {
 

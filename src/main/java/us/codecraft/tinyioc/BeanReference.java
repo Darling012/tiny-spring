@@ -3,6 +3,8 @@ package us.codecraft.tinyioc;
 /**
  * @author yihua.huang@dianping.com
  */
+
+//指的是引用类型的 Bean，而不是实体类。
 public class BeanReference {
 
     private String name;

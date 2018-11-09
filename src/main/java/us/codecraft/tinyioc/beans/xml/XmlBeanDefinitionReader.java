@@ -16,6 +16,7 @@ import java.io.InputStream;
 
 /**
  * @author yihua.huang@dianping.com
+ * 也是最重要的方法之一。它继承了AbstractBeanDefinitionReader，实现了所有方法，解决了 bean 定义中：在哪载入、如何载入、载入到哪的三个大问题
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
