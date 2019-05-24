@@ -1,7 +1,7 @@
 package us.codecraft.proxy.jdk;
 
 import us.codecraft.proxy.jdk.UserService;
-
+// 实现UserService接口类
 public class UserServiceImpl implements UserService {
     @Override
     public String getName(int id) {

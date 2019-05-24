@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+src/test/java/us/codecraft/invoke/
+target/generated-sources/
+target/generated-test-sources/
+target/classes
